@@ -1,14 +1,7 @@
 from io import BytesIO
 
 from flask import flash as _flash
-from flask import (
-    jsonify,
-    redirect,
-    render_template,
-    request,
-    send_file,
-    url_for,
-)
+from flask import jsonify, redirect, render_template, request, send_file, url_for
 from sqlalchemy.exc import IntegrityError
 
 from src.config import app
